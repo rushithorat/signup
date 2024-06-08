@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif ;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #bd747ace;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.box{
+    height: 38vw;
+    width: 40vw;
+    background-color: rgba(230, 221, 221, 0.719);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-size:cover ;
+    border-radius: 1vw;
+   
+}
+.box h1{
+    color: black;
+ 
+}
+.input{
+    
+    width: 90%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0vw;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 2.3vw;
+
+}
+.input input{
+    padding:0.8vw 2vw;
+    border: solid grey 1px;
+    font-size: 1.3vw;
+   border-radius: 10PX;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  
+}
+.input input:hover{
+    background-color: rgb(191, 199, 123);
+}
+.button{
+   
+    width: 90%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.button button{
+    padding:1vw 1.8vw;
+   background-color:  rgba(5,70,5);
+   color: white;
+   border-radius:1px;
+   border: none;
+   border-radius: 10px;
+   font-size: 1vw;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+
+.button button:hover{
+    background-color: rgb(191, 199, 123);
+    transform: scale(1.051);
+}
+#invalid{
+    color: red;
+     background-color: rgba(230, 221, 221, 0.719);
+     width: 60%;
+     height: 2vw;
+     border: none;
+     font-size: 1vw;
+}
+#country{
+    margin-right: 40%;
+}
+@media (min-width:1px) and (max-width:425px) {
+
+    .box{
+        height: 45vh;
+        width: 35vh;
+    }
+    .input{
+    
+        width: 30vh;
+        height: 13vh;
+        margin-bottom:2vh ;
+    
+    }
+    .input input{
+        padding:2vw 4vw;
+        border-radius: none;
+    }
+    button{
+      height: 2vh;
+      width: 5vh;
+      font-size: 4vh;
+
+    }
+    .box h1{
+        margin-bottom:3vh ;
+        font-size: 2.5vh;
+    }
+    #invalid{
+        width: 18vh;
+        height: 2vh;
+        font-size: 1vh;
+    }
+}

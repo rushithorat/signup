@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="box">
+        <h1>SIGN UP</h1>
+        <div class="input">
+            <input type="text" placeholder="Mobile Number" id="mob" oninput="displayCountry();">
+            <div id="country"></div>
+     
+            <input type="text" placeholder="User name" id="user">
+     
+
+        
+            <input type="password" placeholder="Password" id="pass" oninput="verifypass()">
+        </div>
+        <div class="button">
+            <button onclick="verify()">Sign Up</button>
+        </div>
+        <input type="text" id="invalid" readonly>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
